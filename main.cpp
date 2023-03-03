@@ -28,7 +28,7 @@ int main(int argc, char **argv) {
   parser.add_argument("-n", "--number")
       .help("a number")
       .default_value(10)
-      .action([](const std::string &value) { return std::stoi(value); });
+      .scan<'i', int>();
 
   parser.add_argument("-C", "--counts")
       .help("multiple numbers, optional")
