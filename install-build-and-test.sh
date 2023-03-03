@@ -11,5 +11,5 @@ cd build
 conan install .. --build=missing
 cmake .. -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 cmake --build .
-ctest -V
+./bin/main -C 1 2 5 6
 

@@ -1,20 +1,8 @@
-# C++ Bootstrap
+# C++ Argparse tryout
 
-Simple C++ Bootstrap:
+Here's me trying out C++ [p-ranav/argparse](https://github.com/p-ranav/argparse)
 
-* install dependencies using conan
-* build project and tests with cmake
-* test using ctest
+## Why?
 
-Bonus:
-* provides a dev-watch, i.e. continuous compilation and testing during development
-* builds compile_commands.json, for use e.g. with Neovim
-
-## Reasoning
-
-C++ Bootstrapping is too tedious.
-
-## Relevant xkcd
-
-![Relevant xkcd](https://imgs.xkcd.com/comics/standards_2x.png "Relevant xkcd")
+I was switching from [argumentum](https://github.com/mmahnic/argumentum) to [p-ranav/argparse](https://github.com/p-ranav/argparse), since argumentum isn't available in the Conan Center Index
 
