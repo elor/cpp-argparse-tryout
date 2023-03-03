@@ -4,6 +4,9 @@
 int main(int argc, char **argv) {
   auto parser = argparse::ArgumentParser("main", "0.1");
 
+  parser.add_description(
+      "Here, I'm trying out p-ranav/argparse, and it's pretty cool.");
+
   parser.add_argument("input")
       .help("input file")
       .default_value(std::string("input.txt"));
